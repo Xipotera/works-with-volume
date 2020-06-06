@@ -12,4 +12,4 @@ ENV STEP 2
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["Bonjour"]
+CMD ["Hello World!"]
