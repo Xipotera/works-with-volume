@@ -1,8 +1,5 @@
 FROM ubuntu:latest
 
-LABEL version="1.0"
-LABEL maintainer="mathieu.vie@imerir.com"
-
 COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
